@@ -1,0 +1,22 @@
+# Site settings
+title: Wil Whiting
+email: mail@wilwhiting.com
+url: https://example.github.io
+description: "Hand-crafting the finest bespoke shirts."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#1e1e1e'
+  links: '#219ab3'
+
+# Footer settings
+footer: Wil Whiting
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: https://www.instagram.com/wilwhiting/
+
+# Build settings
+markdown: kramdown
+permalink: pretty

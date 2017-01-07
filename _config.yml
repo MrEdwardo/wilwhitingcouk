@@ -1,8 +1,8 @@
 # Site settings
 title: Wil Whiting
-email: mail@wilwhiting.co.uk
-url: https://example.github.io
-description: "Hand-crafting the finest bespoke shirts."
+email: contact@wilwhiting.com
+url: http://wilwhiting.com
+description: "Hand-crafting the finest bespoke shirts"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:

@@ -160,6 +160,19 @@ a:focus {
     font-size: 40px;
 }
 
+.brand-heading {
+    text-align: center;
+}
+
+.brand-heading img{
+    width: 70%;
+}
+
+.push-down {
+    margin-top:10%;
+}
+
+
 .intro .intro-body .intro-text {
     font-size: 15pt;
 }
@@ -184,7 +197,7 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     background: 0 0;
 }

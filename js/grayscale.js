@@ -6,11 +6,11 @@
 
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
+    /**if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-    }
+    }**/
 });
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -34,3 +34,23 @@ $('.navbar-collapse ul li a').click(function() {
 $("a").mouseup(function(){
     $(this).blur();
 })
+
+function password() {
+  var testV = 1;
+  var pass1 = prompt('Enter Your Password', ' ');
+  while (testV < 3) {
+    if (!pass1)
+      history.go(-1);
+    if (pass1.toLowerCase() == "Guest") {
+      alert('Password Correct');
+      window.open("index.html");
+      break;
+    }
+    testV += 1;
+    var pass1 =
+      prompt('Access Denied - Password Incorrect, Please Try Again.', 'Password');
+  }
+  if (pass1.toLowerCase() != "password" & testV == 3)
+    history.go(-1);
+  return " ";
+}

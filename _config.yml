@@ -6,7 +6,7 @@ description: "Wil Whiting crafts bespoke shirts made unique to each individual,<
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#1e1e1e'
+  primary-dark: '#000000'
   links: '#219ab3'
 
 # Footer settings

@@ -153,6 +153,16 @@ a:focus {
     vertical-align: middle;
 }
 
+.main-logo {
+    max-width: 450px;
+}
+
+@media(max-width:767px) {
+  .main-logo {
+      width: 250px;
+  }
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;

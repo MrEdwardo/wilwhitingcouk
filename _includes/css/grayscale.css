@@ -67,6 +67,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
     background-color: #ffffff;
     border-radius: 0px !important;
 }
@@ -91,7 +92,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #b2b2b2;
 }
 
 .navbar-custom .nav li.active {

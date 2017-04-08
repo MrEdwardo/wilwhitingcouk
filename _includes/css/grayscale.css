@@ -13,7 +13,8 @@ body {
   background-color: #fff;
   margin: 0px;
   padding: 0px;
-
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 html {
@@ -21,11 +22,11 @@ html {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
-.row {
-  margin-right: 0px !important;
-}
+
 
 h1,
 h2,

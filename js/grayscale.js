@@ -4,10 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-// jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-  
-});
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
@@ -16,7 +12,7 @@ $(function() {
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+        //event.preventDefault();
     });
 });
 
@@ -33,7 +29,7 @@ $("a").mouseup(function(){
 
 // Google Maps Scripts
 // When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
+//google.maps.event.addDomListener(window, 'load', init);
 
 function init() {
     // Basic options for a simple Google Map
